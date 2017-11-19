@@ -1,0 +1,12 @@
+{
+  "presets": [
+    ["react"], ["env"]
+  ],
+  "plugins": [
+    ["transform-object-rest-spread"], ["transform-regenerator", {
+      "asyncGenerators": true,
+      "generators": true,
+      "async": true
+    }]
+  ]
+}
