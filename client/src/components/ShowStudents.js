@@ -116,11 +116,12 @@ class Tables extends Component {
           <Col>
             <Card>
               <CardHeader>
-                <i className="fa fa-align-justify"></i> Students List
+                <strong>Students </strong>
+                <small>List</small>
                 <div className="card-actions">
-                  <a href="http://www.chartjs.org">
-                  <i className="fa fa-plus"></i>
-                  </a>
+                  <Link to={'/students/create'}>
+                    <i className="fa fa-plus"></i>
+                  </Link>
                 </div>
               </CardHeader>
               <CardBlock className="card-body">
